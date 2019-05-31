@@ -14,10 +14,10 @@ pipeline {
                 sh 'mvn package -f' 
             }
         }   
-        post {
-            success {
-            archiveArtifacts(artifacts: '**/target/*.war', allowEmptyArchive: true)
-             }
-        }
+            post {
+               success {
+                  archiveArtifacts(artifacts: '**/target/*.war', allowEmptyArchive: true)
+               }
+            }
     }
 }
