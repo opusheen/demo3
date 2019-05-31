@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <version>1.0</version>
     <name>hello</name>
-    <url>https://github.com/boxfuse/boxfuse-sample-java-war-hello</url>
+    <url>https://github.com/opusheen/demo3</url>
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
